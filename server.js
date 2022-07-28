@@ -29,6 +29,22 @@ app.get("/aboutus",(req, res)=>{
         +"<li>subject matter expert: soniya more</li>"
         +"</ol>"
 
+
+    );
+});
+app.get("/login",(req, res)=>{
+    res.send(
+        "<h1>vijay sales </h1>"
+        +"<h3>login</h3>"
+        +"<hr/>"
+        +"<form>"
+        +"<input/>"
+        +"<br/>"
+        +"<input/>"
+        +"<button>login</button>"
+        +"</form>"
+
+
     );
 });
 
